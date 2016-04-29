@@ -1,16 +1,13 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Getting There"
+    url: "#getting-there"
 
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+  - title: "Agenda"
+    url: "#agenda"
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+  - title: "Accomodation"
+    url: "#accomodation"
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "Sponsors"
+    url: "#sponsors"

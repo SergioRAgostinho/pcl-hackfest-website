@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "PCL Hackfest Summer 2016"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Open Perception, Inc"
+description              : "The official page for the PCL Summer Hackfest 2016."
+url                      : "//localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  :
+gh_repo                  : PointCloudLibrary
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -35,18 +35,18 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : pointclouds
 facebook:
-  username               :
+  username               : Point-Cloud-Library-PCL-157113581019354
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Organization # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: ["https://github.com/PointCloudLibrary", "https://www.youtube.com/user/pointclouds", "https://plus.google.com/103977559850434700735"]# An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : pointclouds
   vine             :
   weibo            :
   xing             :
