@@ -11,8 +11,8 @@ title                    : "PCL Hackfest Summer 2016"
 title_separator          : "-"
 name                     : "Open Perception, Inc"
 description              : "The official page for the PCL Summer Hackfest 2016."
-url                      : "http://pointclouds.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/hackfest"# the subpath of your site, e.g. "/blog"
+url                      : "//localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : PointCloudLibrary
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -203,4 +203,4 @@ tags:
 compress_html:
   clippings: all
   ignore:
-    envs: production
+    envs: development
