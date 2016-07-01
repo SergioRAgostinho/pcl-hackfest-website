@@ -12,15 +12,59 @@ excerpt: "June 14th TU Munich, Germany"
 
 <div id="latest-news">
   <h1>Latest News</h1>
+  <h3>Open Session videos are now online</h3>
+
+  <ol>
+    <li>
+      <h4>Fyuse by Alex Trevor and Stephen Miller</h4>
+      <div id="ytplayer1"></div>
+      <p>Slides</p>
+    </li>
+    <li>
+      <h4>Extensions and Applications of pcl::sample_consensus by Zoltán-Csaba Márton</h4>
+      <div id="ytplayer2"></div>
+      <p><a href="/assets/slides/zoltan.pdf">Slides</a></p> 
+    </li>
+    <li>
+      <h4>People Detection and Tracking in RGB-D Data by Matteo Munaro</h4>
+      <div id="ytplayer3"></div>
+      <p><a href="/assets/slides/matteo.pdf">Slides</a> <a href="https://www.youtube.com/watch?v=gUbobrBpYVc">Video</a></p> 
+    </li>
+    <li>
+      <h4>3D Perception from SLAM by Federico Tombari and Keisuke Tateno</h4>
+      <div id="ytplayer4"></div>
+      <p>Slides</p> 
+    </li>
+    <li>
+      <h4>Semantic Parametric Body Shape Estimation by Alexandru Ichim</h4>
+      <div id="ytplayer5"></div>
+      <p>
+        <a href="/assets/slides/alexandru.pdf">Slides</a> 
+        <a href="http://lgg.epfl.ch/publications/2016/AvatarsPhysicsSCA/index.php">Video 1</a> 
+        <a href="http://lgg.epfl.ch/~ichim/bodies_ras_2015/">Video 2</a> 
+        <a href="http://lgg.epfl.ch/publications/2015/AvatarsSG/index.php">Video 3</a> 
+      </p> 
+    </li>
+    <li>
+      <h4>Genius Software by Charbel Achkar and Habib Abi-Rached</h4>
+      <div id="ytplayer6"></div>
+      <p><a href="/assets/slides/genius.pptx">Slides</a></p> 
+    </li>
+    <li>
+      <h4>Developer Session Summary by Jochen Sprickerhof and Sérgio Agostinho</h4>
+      <div id="ytplayer7"></div>
+    </li>
+  </ol>
+
   <h3>Open Session Registration</h3>
 
   The registration for the Open Session is now <a href="https://www.eventbrite.com/e/pcl-hackfest-june-2016-open-session-tickets-25889423964">open</a>.
 
-  <h3>Open Session Livestream</h3>  
+  <!-- <h3>Open Session Livestream</h3>  
 
   Follow the Open Sessions Livestream here.
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wNVHJBGvZIE" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wNVHJBGvZIE" frameborder="0" allowfullscreen></iframe> -->
 
 
 </div>
@@ -94,4 +138,55 @@ excerpt: "June 14th TU Munich, Germany"
   <a href="http://geniusoftware.com/"><img src="images/geniusoftware_logo.png" title="Genius Software" class="logos"/></a>
   <a href="http://www.fyusion.com/"><img src="images/fyusion.png" title="Fyusion" class="logos"/></a>
 </div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player = new Array(7)
+  var h = '315';
+  var w = '560';
+  function onYouTubePlayerAPIReady() {
+    player[0] = new YT.Player('ytplayer1', {
+      height: h,
+      width: w,
+      videoId: 'n0L6PERAwh8'
+    });
+    player[1] = new YT.Player('ytplayer2', {
+      height: h,
+      width: w,
+      videoId: 'AU5erciJyzk'
+    });
+    player[2] = new YT.Player('ytplayer3', {
+      height: h,
+      width: w,
+      videoId: 'ckENuomkVPo'
+    });
+    player[3] = new YT.Player('ytplayer4', {
+      height: h,
+      width: w,
+      videoId: 'ljY740UhsLM'
+    });
+    player[4] = new YT.Player('ytplayer5', {
+      height: h,
+      width: w,
+      videoId: '0e3RT1x1cJg'
+    });
+    player[5] = new YT.Player('ytplayer6', {
+      height: h,
+      width: w,
+      videoId: 'q7xmFwfoGL0'
+    });
+    player[6] = new YT.Player('ytplayer7', {
+      height: h,
+      width: w,
+      videoId: 'e0Ehzv57VNw'
+    });
+  }
+</script>
 
