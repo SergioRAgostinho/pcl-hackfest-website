@@ -23,12 +23,12 @@ excerpt: "June 14th TU Munich, Germany"
     <li>
       <h4>Extensions and Applications of pcl::sample_consensus by Zoltán-Csaba Márton</h4>
       <div id="ytplayer2"></div>
-      <p><a href="/assets/slides/zoltan.pdf">Slides</a></p> 
+      <p><a href="{{ site.baseurl }}/assets/slides/zoltan.pdf">Slides</a></p> 
     </li>
     <li>
       <h4>People Detection and Tracking in RGB-D Data by Matteo Munaro</h4>
       <div id="ytplayer3"></div>
-      <p><a href="/assets/slides/matteo.pdf">Slides</a> <a href="https://www.youtube.com/watch?v=gUbobrBpYVc">Video</a></p> 
+      <p><a href="{{ site.baseurl }}/assets/slides/matteo.pdf">Slides</a> <a href="https://www.youtube.com/watch?v=gUbobrBpYVc">Video</a></p> 
     </li>
     <li>
       <h4>3D Perception from SLAM by Federico Tombari and Keisuke Tateno</h4>
@@ -39,7 +39,7 @@ excerpt: "June 14th TU Munich, Germany"
       <h4>Semantic Parametric Body Shape Estimation by Alexandru Ichim</h4>
       <div id="ytplayer5"></div>
       <p>
-        <a href="/assets/slides/alexandru.pdf">Slides</a> 
+        <a href="{{ site.baseurl }}/assets/slides/alexandru.pdf">Slides</a> 
         <a href="http://lgg.epfl.ch/publications/2016/AvatarsPhysicsSCA/index.php">Video 1</a> 
         <a href="http://lgg.epfl.ch/~ichim/bodies_ras_2015/">Video 2</a> 
         <a href="http://lgg.epfl.ch/publications/2015/AvatarsSG/index.php">Video 3</a> 
@@ -48,7 +48,7 @@ excerpt: "June 14th TU Munich, Germany"
     <li>
       <h4>Genius Software by Charbel Achkar and Habib Abi-Rached</h4>
       <div id="ytplayer6"></div>
-      <p><a href="/assets/slides/genius.pptx">Slides</a></p> 
+      <p><a href="{{ site.baseurl }}/assets/slides/genius.pptx">Slides</a></p> 
     </li>
     <li>
       <h4>Developer Session Summary by Jochen Sprickerhof and Sérgio Agostinho</h4>
@@ -140,15 +140,12 @@ excerpt: "June 14th TU Munich, Germany"
 </div>
 
 <script>
-  // Load the IFrame Player API code asynchronously.
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/player_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var player = new Array(7)
+  var player = new Array(7);
   var h = '315';
   var w = '560';
   function onYouTubePlayerAPIReady() {
